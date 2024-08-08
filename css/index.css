@@ -8,18 +8,16 @@
   
   p {
     background-color: #d2cece;
-    width: 90%;
+    width: 95%;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 10px;
     font-family: Helvetica;
     color: rgb(11, 10, 10);
     padding: 60px 10px 10px 10px;
-    border: 1px solid #1c1b1b;
+    border: 2px solid #1c1b1b;
   }
 
   span {
-    background-color: #ceb43f;
     position: absolute;
     top: 0;
     right: 0;
@@ -27,7 +25,8 @@
     font-weight: bold;
     margin: 0;
     color: #1c1b1b;
-    border: 1px solid #1c1b1b;
+    border-bottom: 2px solid #1c1b1b;
+    border-left: 2px solid #1c1b1b;
   }
 
   .title {
@@ -36,7 +35,7 @@
   }
 
   .title1 {
-    background-color: #9b2222;
+    background-color: #f88181;
   }
 
   .title2 {
@@ -136,6 +135,10 @@
     }
     .col-md-12 {
       width: 100%;
+    }
+
+    .col-md-12 > p {
+      width: 97.5%;
     }
   }
 
